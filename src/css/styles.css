@@ -21,26 +21,33 @@ body {
   border-color: violet;
 }
 
+p {
+  margin: 0;
+}
 .country-list {
   padding: 0;
+  width: 400px;
 }
+
 .item{
   list-style: none;
+  margin-bottom: 16px;
 }
 
 .name_2 {
   font-size: 20px;
+  line-height: 20px;
 }
 
 .name {
   font-size: 30px;
   margin: 0;
+  width: 100%;
 }
 
 .item_2 {
   display: flex;
   align-items: center;
-  line-height: 0;
 }
 
 .img_2 {

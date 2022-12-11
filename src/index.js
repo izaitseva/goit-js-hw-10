@@ -39,9 +39,9 @@ function onInput() {
                         <li class="item">
                             <img class="img" src="${item.flags.svg}" alt="flag_image">
                             <p class="name">${item.name.official}</p>
-                            <p class="capital">Capital: ${item.capital}</p>
-                            <p class="population">Population: ${item.population}</p>
-                            <p class="languages">Languages: ${item.languages ? Object.values(item.languages).toString() : ''}</p>
+                            <p class="capital"><b>Capital:</b> ${item.capital}</p>
+                            <p class="population"><b>Population:</b> ${item.population}</p>
+                            <p class="languages"><b>Languages:</b> ${item.languages ? Object.values(item.languages).toString() : ''}</p>
                         </li>
                         `).join('')
                 countrieslist.innerHTML = markup
