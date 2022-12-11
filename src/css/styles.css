@@ -21,6 +21,33 @@ body {
   border-color: violet;
 }
 
+.country-list {
+  padding: 0;
+}
 .item{
   list-style: none;
+}
+
+.name_2 {
+  font-size: 20px;
+}
+
+.name {
+  font-size: 30px;
+  margin: 0;
+}
+
+.item_2 {
+  display: flex;
+  align-items: center;
+  line-height: 0;
+}
+
+.img_2 {
+width: 50px;
+margin-right: 10px;
+}
+
+.img {
+  width: 180px;
 }
