@@ -45,6 +45,7 @@ function onInput() {
                 countrieslist.innerHTML = markup
             }
         }).catch(() => {
+            countrieslist.innerHTML = '';
             Notiflix.Notify.failure("Oops, there is no country with that name");
         });
 }
